@@ -1,0 +1,3 @@
+1. Soru Eksik Küme Elemanını Bulmak: 
+Çalışma Şekli:
+Kullanıcının girdiği sayıları bir diziye kaydediyoruz ve daha sonra bu diziyi bubble sort algoritması kullanarak sıralıyoruz. Daha sonra, bir döngü kullanarak sıralanmış diziyi tarıyoruz ve ardışık iki sayının birbirine eşit olup olmadığını kontrol ediyoruz. Eşit olan sayıları bulduktan sonra, kayıp olan sayıyı hesaplamak için toplamı alıyoruz ve dizideki sayıların toplamından çıkarıyoruz.
