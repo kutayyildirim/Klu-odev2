@@ -1,3 +1,28 @@
 1. Soru Eksik Küme Elemanını Bulmak: 
 Çalışma Şekli:
-Kullanıcının girdiği sayıları bir diziye kaydediyoruz ve daha sonra bu diziyi bubble sort algoritması kullanarak sıralıyoruz. Daha sonra, bir döngü kullanarak sıralanmış diziyi tarıyoruz ve ardışık iki sayının birbirine eşit olup olmadığını kontrol ediyoruz. Eşit olan sayıları bulduktan sonra, kayıp olan sayıyı hesaplamak için toplamı alıyoruz ve dizideki sayıların toplamından çıkarıyoruz.
+
+Kullanıcının girdiği sayıları bir diziye kaydediyoruz ve daha sonra bu diziyi bubble sort algoritması kullanarak sıralıyoruz. 
+Daha sonra, bir döngü kullanarak sıralanmış diziyi tarıyoruz ve ardışık iki sayının birbirine eşit olup olmadığını kontrol ediyoruz. 
+Eşit olan sayıları bulduktan sonra, kayıp olan sayıyı hesaplamak için toplamı alıyoruz ve dizideki sayıların toplamından çıkarıyoruz.
+
+
+Bubble Sort Algoritmasının Kullanım Amacı:
+
+Tablolardaki verilerin sıralanması için kullanılan basit bir sıralama algoritması olan bubblesort, verileri birbirleriyle karşılaştırarak sıralar.
+Algoritma, listedeki her öğeyi, önceki öğeyle karşılaştırır ve önceki öğe daha büyükse, bu iki öğe yer değiştirir.
+Bu işlem, listenin sonuna kadar devam eder ve en büyük öğe listenin sonuna yerleşir.
+Daha sonra algoritma, liste boyunca bu işlemi tekrarlayarak, listenin tamamını sıralar. 
+
+2. Soru Palindrom Bağlı Liste:
+Çalışma Şekli:
+
+Kullanıcıdan bir kelime girmesi istenir ve kelime kelime adlı karakter dizisine atanır.
+strlen() fonksiyonu kullanılarak kelime karakter dizisinin uzunluğu hesaplanır ve uzun adlı bir tamsayı değişkenine atanır.
+i ve j adlı iki tamsayı değişkeni tanımlanır. Bu değişkenler, kelimenin ilk ve son karakterlerini karşılaştırmak için kullanılır.
+for döngüsü kullanılarak, kelimenin ilk ve son karakterleri karşılaştırılır. Eğer karşılaştırılan karakterler eşleşmezse, kelime bir palindrom değildir ve program sonlandırılır.
+Eğer tüm karşılıklı karakterler eşleşirse, kelime bir palindromdur ve program bunu bildirir.
+
+Bağlı Listelerin Kullanım Amacı:
+Bağlı listeler, birbirine bağlı düğümlerden oluşan bir veri yapısıdır.
+Her düğüm, bir veri öğesi ve bir sonraki düğümün konumunu gösteren bir işaretçi içerir. 
+Bu sayede, bağlı listeler, verilerin bir sıraya göre depolanmasına ve işlenmesine olanak tanır.
